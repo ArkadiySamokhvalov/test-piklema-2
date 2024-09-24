@@ -1,0 +1,14 @@
+{
+  "name": "test-piklema-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc -t es2022 -m es2022 --moduleResolution node --outDir dist src/api.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
